@@ -1,0 +1,49 @@
+/* global styles */
+
+i {
+    color: white;
+}
+
+
+/* global styles end */
+
+
+/* Nav and header */
+.background-img {
+    background-image: url(/img/headerVar1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav-wrapper {
+    background-color: rgba(51, 29, 24, 0.6);
+}
+
+.nav-wrapper a{
+    color: white;
+}
+
+.nav-item {
+    padding: 0.5rem 2rem;
+}
+
+.site-name {
+    color:#fff4e6;
+}
+
+.site-name h1 {
+    font-size: 3rem;
+}
+.site-name p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.oval {
+    width: 60%;
+    height: auto;
+    background: rgb(75, 56, 50, 75%);
+    border-radius: 50%;
+    padding: 10% 0;
+}
+/* Nav and header end */
