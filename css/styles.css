@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway:wght@300&display=swap');
 /* global styles */
 
 i {
     color: white;
 }
 
-
+body { 
+    font-family: 'Raleway', sans-serif;
+}
 /* global styles end */
 
 
@@ -17,11 +20,13 @@ i {
 }
 
 .nav-wrapper {
-    background-color: rgba(51, 29, 24, 0.6);
+    background-color: rgba(54, 30, 24, 0.6);
+    box-shadow:inset 0 0 0 2000px rgba(43, 40, 41, 0.3);
 }
 
 .nav-wrapper a{
     color: white;
+    font-family: 'Cinzel', serif;
 }
 
 .nav-item {
@@ -30,10 +35,12 @@ i {
 
 .site-name {
     color:#fff4e6;
+    
 }
 
 .site-name h1 {
     font-size: 3rem;
+    font-family: 'Cinzel', cursive;
 }
 .site-name p {
     font-size: 1.3rem;
@@ -47,3 +54,110 @@ i {
     padding: 10% 0;
 }
 /* Nav and header end */
+
+
+/* Our model section */
+
+.our-model-wrapper {
+    width: 95%;
+    padding: 10rem;
+}
+
+.section-header {
+    padding: 2rem;
+    
+}
+
+.section-header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+}
+
+.model {
+    padding: 1rem;
+}
+
+.check-icon {
+    width: 20%;
+}
+.model-details{
+    width: 80%;
+}
+
+.model img {
+    max-width: 70%;
+    height: auto;
+}
+/* Our model end */
+
+
+/* Our space section */
+
+#our_space {
+    background-image: url('/img/carouselBG1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.our-space-section {
+    width: 100%;
+    background-color: rgb(60, 47, 47, 89%);
+}
+
+.our-space-header h1{
+    color:white;
+    font-family: 'Cinzel', serif;
+}
+
+.carousel-inner {
+    width: 70%;
+}
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Our space section end */
+
+
+/* get-in-touch section  */
+.get-in-touch {
+    width: 90%;
+    margin: 13rem 0;
+}   
+
+.contact-btn {
+    background-color:  rgb(114, 66, 66);
+    color: white;
+}
+
+/* get-in-touch end */
+
+/* footer start */
+.site-footer {
+    background-color: rgb(114, 66, 66);
+    color:white;
+}
+
+.footer-navigation a {
+    margin-right: 3rem;
+    color: white;
+}
+
+.footer-nav-item {
+    margin-right: 3rem;
+}
+
+.white-line {
+    height: 0.02rem;
+    width: 40%;
+    background-color: white;
+}
+
+/* footer end */
+@media (max-width: 576px) { 
+    html {
+        font-size: 10px;
+    }
+
+
+}
